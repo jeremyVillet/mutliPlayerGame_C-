@@ -1,0 +1,20 @@
+﻿<UserControl x:Class="LauncherSharpmon.pages.Update"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:LauncherSharpmon.pages"
+             mc:Ignorable="d"  Height="490" Width="525">
+    <Grid Background="White">
+        <TextBlock FontSize="28px" Padding="10px" Background="LightGray" TextAlignment="Center" HorizontalAlignment="Left" Height="65" TextWrapping="Wrap" VerticalAlignment="Top" Width="525" Margin="0,0,-0.2,0"><Run Text="Launcher Sharpmon"/><InlineUIContainer>
+              
+            </InlineUIContainer></TextBlock>
+
+        <TextBlock x:Name="view_statutUpdate"  TextAlignment="Center" FontSize="18px" HorizontalAlignment="Left" Margin="7,176,-0.2,0" TextWrapping="Wrap" Text="Vérification de mises a jour .." VerticalAlignment="Top" RenderTransformOrigin="0.814,-0.509" Height="26" Width="518"/>
+        <ProgressBar  x:Name="view_progressBar" HorizontalAlignment="Left" Height="39" IsIndeterminate="True" Margin="159,252,0,0" VerticalAlignment="Top" Width="211"/>
+        <Button x:Name="view_buttonNewCo" Click="click_newConnection" Visibility="Hidden"  Content="Nouvelle tentative" HorizontalAlignment="Left" Margin="186,252,0,0" VerticalAlignment="Top" Width="160" Height="40"/>
+        <TextBlock HorizontalAlignment="Left" Padding="2" TextAlignment="Center" Background="LightGray"  Margin="0,430,-0.2,-0.4" TextWrapping="Wrap" Text="© Copyright 2017 Villet Corportation" VerticalAlignment="Top" Width="525" Height="22"/>
+
+
+    </Grid>
+</UserControl>

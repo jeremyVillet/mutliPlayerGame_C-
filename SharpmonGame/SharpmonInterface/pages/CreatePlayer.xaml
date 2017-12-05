@@ -1,0 +1,21 @@
+﻿<UserControl x:Class="SharpmonInterface.pages.CreatePlayer"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:SharpmonInterface.pages"
+             mc:Ignorable="d" 
+            d:DesignWidth="700" d:DesignHeight="700"  Width="700" Height="700">
+    <Grid x:Name="gameplayLayoutRoot" Background="White">
+        <TextBlock x:Name="game" TextAlignment="Center" Padding="18px" Background="LightGray" Height="81" HorizontalAlignment="Left" VerticalAlignment="Top" Width="700" Text="Bienvenue sur Sharpmon" TextWrapping="Wrap" FontSize="32px"/>
+        <Label Content="Entrez votre nom :" HorizontalAlignment="Left" Margin="170,244,0,0" VerticalAlignment="Top" FontSize="22px" Width="183"/>
+        <TextBox HorizontalAlignment="Left" x:Name="view_namePlayer"  Height="36" Margin="358,248,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="157" FontSize="22px"/>
+        <Button Content="Commencer à jouer" HorizontalAlignment="Left" Margin="269,476,0,0" VerticalAlignment="Top" Width="174" Height="43" Click="StartGame_Click"/>
+        <TextBlock    x:Name="view_errorName" HorizontalAlignment="Left" Foreground="Red" Margin="269,442,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="29" Width="216"/>
+        <Button Content="Quitter le jeu" HorizontalAlignment="Left" Height="37" Margin="555,608,0,0" VerticalAlignment="Top" Width="115"/>
+        <TextBlock  x:Name="view_sharpmonSeleced" HorizontalAlignment="Left"  TextAlignment="Center" FontSize="22px" Height="34" Margin="0,366,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="690"/>
+
+
+
+    </Grid>
+</UserControl>

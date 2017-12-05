@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="SharpmonGameInterfaceDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="DB_Attacks">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="name" Type="nvarchar(max)" />
+          <Property Name="damage" Type="int" />
+          <Property Name="boostPower" Type="int" />
+          <Property Name="boostDefense" Type="int" />
+          <Property Name="boostDodge" Type="int" />
+          <Property Name="sharpmonOwner" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="DB_ItemsPlayer">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="nvarchar(max)" />
+          <Property Name="Price" Type="int" />
+          <Property Name="Description" Type="nvarchar(max)" />
+          <Property Name="AddHp" Type="int" />
+          <Property Name="AddLevel" Type="int" />
+        </EntityType>
+        <EntityType Name="DB_Sharpmons">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="nom" Type="nvarchar(max)" />
+          <Property Name="level" Type="int" />
+          <Property Name="experience" Type="int" />
+          <Property Name="HP" Type="int" />
+          <Property Name="power" Type="int" />
+          <Property Name="defense" Type="int" />
+          <Property Name="dodge" Type="int" />
+          <Property Name="accuracy" Type="int" />
+          <Property Name="speed" Type="int" />
+        </EntityType>
+        <EntityContainer Name="SharpmonGameInterfaceDBModelStoreContainer">
+          <EntitySet Name="DB_Attacks" EntityType="Self.DB_Attacks" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="DB_ItemsPlayer" EntityType="Self.DB_ItemsPlayer" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="DB_Sharpmons" EntityType="Self.DB_Sharpmons" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="SharpmonGameInterfaceDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="DB_Attacks">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="damage" Type="Int32" />
+          <Property Name="boostPower" Type="Int32" />
+          <Property Name="boostDefense" Type="Int32" />
+          <Property Name="boostDodge" Type="Int32" />
+          <Property Name="sharpmonOwner" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="DB_ItemsPlayer">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Price" Type="Int32" />
+          <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="AddHp" Type="Int32" />
+          <Property Name="AddLevel" Type="Int32" />
+        </EntityType>
+        <EntityType Name="DB_Sharpmons">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="nom" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="level" Type="Int32" />
+          <Property Name="experience" Type="Int32" />
+          <Property Name="HP" Type="Int32" />
+          <Property Name="power" Type="Int32" />
+          <Property Name="defense" Type="Int32" />
+          <Property Name="dodge" Type="Int32" />
+          <Property Name="accuracy" Type="Int32" />
+          <Property Name="speed" Type="Int32" />
+        </EntityType>
+        <EntityContainer Name="SharpmonGameInterfaceDBEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="DB_Attacks" EntityType="Self.DB_Attacks" />
+          <EntitySet Name="DB_ItemsPlayer" EntityType="Self.DB_ItemsPlayer" />
+          <EntitySet Name="DB_Sharpmons" EntityType="Self.DB_Sharpmons" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="SharpmonGameInterfaceDBModelStoreContainer" CdmEntityContainer="SharpmonGameInterfaceDBEntities">
+          <EntitySetMapping Name="DB_Attacks">
+            <EntityTypeMapping TypeName="SharpmonGameInterfaceDBModel.DB_Attacks">
+              <MappingFragment StoreEntitySet="DB_Attacks">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="damage" ColumnName="damage" />
+                <ScalarProperty Name="boostPower" ColumnName="boostPower" />
+                <ScalarProperty Name="boostDefense" ColumnName="boostDefense" />
+                <ScalarProperty Name="boostDodge" ColumnName="boostDodge" />
+                <ScalarProperty Name="sharpmonOwner" ColumnName="sharpmonOwner" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="DB_ItemsPlayer">
+            <EntityTypeMapping TypeName="SharpmonGameInterfaceDBModel.DB_ItemsPlayer">
+              <MappingFragment StoreEntitySet="DB_ItemsPlayer">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Price" ColumnName="Price" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="AddHp" ColumnName="AddHp" />
+                <ScalarProperty Name="AddLevel" ColumnName="AddLevel" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="DB_Sharpmons">
+            <EntityTypeMapping TypeName="SharpmonGameInterfaceDBModel.DB_Sharpmons">
+              <MappingFragment StoreEntitySet="DB_Sharpmons">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="nom" ColumnName="nom" />
+                <ScalarProperty Name="level" ColumnName="level" />
+                <ScalarProperty Name="experience" ColumnName="experience" />
+                <ScalarProperty Name="HP" ColumnName="HP" />
+                <ScalarProperty Name="power" ColumnName="power" />
+                <ScalarProperty Name="defense" ColumnName="defense" />
+                <ScalarProperty Name="dodge" ColumnName="dodge" />
+                <ScalarProperty Name="accuracy" ColumnName="accuracy" />
+                <ScalarProperty Name="speed" ColumnName="speed" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Aucun" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SharpmonGameInterfaceDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="DB_Attacks">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="damage" Type="Int32" />
+    <Property Name="boostPower" Type="Int32" />
+    <Property Name="boostDefense" Type="Int32" />
+    <Property Name="boostDodge" Type="Int32" />
+    <Property Name="sharpmonOwner" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="DB_ItemsPlayer">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Price" Type="Int32" />
+    <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="AddHp" Type="Int32" />
+    <Property Name="AddLevel" Type="Int32" />
+  </EntityType>
+  <EntityType Name="DB_Sharpmons">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nom" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="level" Type="Int32" />
+    <Property Name="experience" Type="Int32" />
+    <Property Name="HP" Type="Int32" />
+    <Property Name="power" Type="Int32" />
+    <Property Name="defense" Type="Int32" />
+    <Property Name="dodge" Type="Int32" />
+    <Property Name="accuracy" Type="Int32" />
+    <Property Name="speed" Type="Int32" />
+  </EntityType>
+  <EntityContainer Name="SharpmonGameInterfaceDBEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="DB_Attacks" EntityType="Self.DB_Attacks" />
+    <EntitySet Name="DB_ItemsPlayer" EntityType="Self.DB_ItemsPlayer" />
+    <EntitySet Name="DB_Sharpmons" EntityType="Self.DB_Sharpmons" />
+  </EntityContainer>
+</Schema>

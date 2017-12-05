@@ -1,0 +1,16 @@
+﻿<UserControl x:Class="SharpmonInterface.pages.PatchNotes"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:SharpmonInterface.pages"
+             mc:Ignorable="d" 
+             d:DesignWidth="700" d:DesignHeight="700"  Width="700" Height="700">
+    <Grid x:Name="gameplayLayoutRoot" Background="White">
+        <TextBlock x:Name="game" TextAlignment="Center" Padding="18px" Background="LightGray" Height="81" HorizontalAlignment="Left" VerticalAlignment="Top" Width="700" Text="Bienvenue sur Sharpmon" TextWrapping="Wrap" FontSize="32px"/>
+        <Button Content="Commencer l'aventure" FontSize="18px" HorizontalAlignment="Left" Margin="235,483,0,0" VerticalAlignment="Top" Width="199" Height="62" Click="Click_next"/>
+        <TextBlock HorizontalAlignment="Left" FontSize="28px" TextAlignment="Center" Height="49" Margin="0,101,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="690"><Run Text="Patch Notes : Beta v 1."/><Run Text="1"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left"  Margin="52,230,0,0" TextWrapping="Wrap"  FontSize="18px" VerticalAlignment="Top" Height="214" Width="598"><Run Text="-Longueur des pseudos limités à 30 caractères pour éviter certains problèmes"/><LineBreak/><LineBreak/></TextBlock>
+
+    </Grid>
+</UserControl>

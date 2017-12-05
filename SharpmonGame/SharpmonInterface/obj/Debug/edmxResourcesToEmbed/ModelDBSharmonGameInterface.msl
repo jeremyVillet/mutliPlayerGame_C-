@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SharpmonGameInterfaceDBModelStoreContainer" CdmEntityContainer="SharpmonGameInterfaceDBEntities">
+    <EntitySetMapping Name="DB_Attacks">
+      <EntityTypeMapping TypeName="SharpmonGameInterfaceDBModel.DB_Attacks">
+        <MappingFragment StoreEntitySet="DB_Attacks">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="damage" ColumnName="damage" />
+          <ScalarProperty Name="boostPower" ColumnName="boostPower" />
+          <ScalarProperty Name="boostDefense" ColumnName="boostDefense" />
+          <ScalarProperty Name="boostDodge" ColumnName="boostDodge" />
+          <ScalarProperty Name="sharpmonOwner" ColumnName="sharpmonOwner" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DB_ItemsPlayer">
+      <EntityTypeMapping TypeName="SharpmonGameInterfaceDBModel.DB_ItemsPlayer">
+        <MappingFragment StoreEntitySet="DB_ItemsPlayer">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="AddHp" ColumnName="AddHp" />
+          <ScalarProperty Name="AddLevel" ColumnName="AddLevel" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DB_Sharpmons">
+      <EntityTypeMapping TypeName="SharpmonGameInterfaceDBModel.DB_Sharpmons">
+        <MappingFragment StoreEntitySet="DB_Sharpmons">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="nom" ColumnName="nom" />
+          <ScalarProperty Name="level" ColumnName="level" />
+          <ScalarProperty Name="experience" ColumnName="experience" />
+          <ScalarProperty Name="HP" ColumnName="HP" />
+          <ScalarProperty Name="power" ColumnName="power" />
+          <ScalarProperty Name="defense" ColumnName="defense" />
+          <ScalarProperty Name="dodge" ColumnName="dodge" />
+          <ScalarProperty Name="accuracy" ColumnName="accuracy" />
+          <ScalarProperty Name="speed" ColumnName="speed" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

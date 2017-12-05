@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SharpmonGameInterfaceDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="DB_Attacks">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name" Type="nvarchar(max)" />
+    <Property Name="damage" Type="int" />
+    <Property Name="boostPower" Type="int" />
+    <Property Name="boostDefense" Type="int" />
+    <Property Name="boostDodge" Type="int" />
+    <Property Name="sharpmonOwner" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="DB_ItemsPlayer">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" />
+    <Property Name="Price" Type="int" />
+    <Property Name="Description" Type="nvarchar(max)" />
+    <Property Name="AddHp" Type="int" />
+    <Property Name="AddLevel" Type="int" />
+  </EntityType>
+  <EntityType Name="DB_Sharpmons">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nom" Type="nvarchar(max)" />
+    <Property Name="level" Type="int" />
+    <Property Name="experience" Type="int" />
+    <Property Name="HP" Type="int" />
+    <Property Name="power" Type="int" />
+    <Property Name="defense" Type="int" />
+    <Property Name="dodge" Type="int" />
+    <Property Name="accuracy" Type="int" />
+    <Property Name="speed" Type="int" />
+  </EntityType>
+  <EntityContainer Name="SharpmonGameInterfaceDBModelStoreContainer">
+    <EntitySet Name="DB_Attacks" EntityType="Self.DB_Attacks" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DB_ItemsPlayer" EntityType="Self.DB_ItemsPlayer" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DB_Sharpmons" EntityType="Self.DB_Sharpmons" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

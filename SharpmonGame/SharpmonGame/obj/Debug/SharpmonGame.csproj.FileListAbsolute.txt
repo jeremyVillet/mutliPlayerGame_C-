@@ -1,0 +1,16 @@
+C:\Users\jerem\Desktop\ASC2\2NET - Microsoft .NET Foundations and Enterprise Applications\SharpmonGame\SharpmonGame\bin\Debug\DBSharpmonGame.mdf
+C:\Users\jerem\Desktop\ASC2\2NET - Microsoft .NET Foundations and Enterprise Applications\SharpmonGame\SharpmonGame\bin\Debug\DBSharpmonGame_log.ldf
+C:\Users\jerem\Desktop\ASC2\2NET - Microsoft .NET Foundations and Enterprise Applications\SharpmonGame\SharpmonGame\bin\Debug\SharpmonGame.exe.config
+C:\Users\jerem\Desktop\ASC2\2NET - Microsoft .NET Foundations and Enterprise Applications\SharpmonGame\SharpmonGame\bin\Debug\SharpmonGame.exe
+C:\Users\jerem\Desktop\ASC2\2NET - Microsoft .NET Foundations and Enterprise Applications\SharpmonGame\SharpmonGame\bin\Debug\SharpmonGame.pdb
+C:\Users\jerem\Desktop\ASC2\2NET - Microsoft .NET Foundations and Enterprise Applications\SharpmonGame\SharpmonGame\bin\Debug\DllSharpmon.dll.dll
+C:\Users\jerem\Desktop\ASC2\2NET - Microsoft .NET Foundations and Enterprise Applications\SharpmonGame\SharpmonGame\bin\Debug\EntityFramework.dll
+C:\Users\jerem\Desktop\ASC2\2NET - Microsoft .NET Foundations and Enterprise Applications\SharpmonGame\SharpmonGame\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\jerem\Desktop\ASC2\2NET - Microsoft .NET Foundations and Enterprise Applications\SharpmonGame\SharpmonGame\bin\Debug\DllSharpmon.dll.pdb
+C:\Users\jerem\Desktop\ASC2\2NET - Microsoft .NET Foundations and Enterprise Applications\SharpmonGame\SharpmonGame\bin\Debug\EntityFramework.xml
+C:\Users\jerem\Desktop\ASC2\2NET - Microsoft .NET Foundations and Enterprise Applications\SharpmonGame\SharpmonGame\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\jerem\Desktop\ASC2\2NET - Microsoft .NET Foundations and Enterprise Applications\SharpmonGame\SharpmonGame\bin\Debug\fr\EntityFramework.resources.dll
+C:\Users\jerem\Desktop\ASC2\2NET - Microsoft .NET Foundations and Enterprise Applications\SharpmonGame\SharpmonGame\obj\Debug\SharpmonGame.csprojResolveAssemblyReference.cache
+C:\Users\jerem\Desktop\ASC2\2NET - Microsoft .NET Foundations and Enterprise Applications\SharpmonGame\SharpmonGame\obj\Debug\SharpmonGame.csproj.CoreCompileInputs.cache
+C:\Users\jerem\Desktop\ASC2\2NET - Microsoft .NET Foundations and Enterprise Applications\SharpmonGame\SharpmonGame\obj\Debug\SharpmonGame.exe
+C:\Users\jerem\Desktop\ASC2\2NET - Microsoft .NET Foundations and Enterprise Applications\SharpmonGame\SharpmonGame\obj\Debug\SharpmonGame.pdb

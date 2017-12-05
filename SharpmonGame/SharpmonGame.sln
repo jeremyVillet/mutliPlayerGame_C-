@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpmonGame", "SharpmonGame\SharpmonGame.csproj", "{4735EF35-3FCA-4051-BA49-982179F37417}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerSharpmonGame", "ServerSharpmonGame\ServerSharpmonGame.csproj", "{CEDBDA4F-D7AA-4B9B-81C5-8707B003A2DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DllSharpmon", "DllSharpmon.dll\DllSharpmon.csproj", "{88B56F28-7001-46F8-A5BA-705C8DC824C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpmonInterface", "SharpmonInterface\SharpmonInterface.csproj", "{D4E3375B-D382-4B11-A01B-F08A7BCF47E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerUpdate", "ServerUpdate\ServerUpdate.csproj", "{7A8BBAA0-FEB2-4E8C-93EE-05AEDE0655BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LauncherSharpmon", "LauncherSharpmon\LauncherSharpmon.csproj", "{63136BA0-7B0B-4546-BFFB-260B0740F671}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4735EF35-3FCA-4051-BA49-982179F37417}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4735EF35-3FCA-4051-BA49-982179F37417}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4735EF35-3FCA-4051-BA49-982179F37417}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4735EF35-3FCA-4051-BA49-982179F37417}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEDBDA4F-D7AA-4B9B-81C5-8707B003A2DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEDBDA4F-D7AA-4B9B-81C5-8707B003A2DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEDBDA4F-D7AA-4B9B-81C5-8707B003A2DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEDBDA4F-D7AA-4B9B-81C5-8707B003A2DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88B56F28-7001-46F8-A5BA-705C8DC824C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88B56F28-7001-46F8-A5BA-705C8DC824C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88B56F28-7001-46F8-A5BA-705C8DC824C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88B56F28-7001-46F8-A5BA-705C8DC824C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4E3375B-D382-4B11-A01B-F08A7BCF47E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4E3375B-D382-4B11-A01B-F08A7BCF47E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4E3375B-D382-4B11-A01B-F08A7BCF47E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4E3375B-D382-4B11-A01B-F08A7BCF47E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A8BBAA0-FEB2-4E8C-93EE-05AEDE0655BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A8BBAA0-FEB2-4E8C-93EE-05AEDE0655BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A8BBAA0-FEB2-4E8C-93EE-05AEDE0655BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A8BBAA0-FEB2-4E8C-93EE-05AEDE0655BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63136BA0-7B0B-4546-BFFB-260B0740F671}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63136BA0-7B0B-4546-BFFB-260B0740F671}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63136BA0-7B0B-4546-BFFB-260B0740F671}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63136BA0-7B0B-4546-BFFB-260B0740F671}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3B1FCE23-DDE6-4C02-99DA-846EA043A015}
+	EndGlobalSection
+EndGlobal

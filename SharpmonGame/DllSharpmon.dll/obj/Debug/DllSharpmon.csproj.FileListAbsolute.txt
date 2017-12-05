@@ -1,0 +1,6 @@
+C:\Users\jerem\Desktop\ASC2\2NET - Microsoft .NET Foundations and Enterprise Applications\SharpmonGame\DllSharpmon.dll\bin\Debug\DllSharpmon.dll.dll
+C:\Users\jerem\Desktop\ASC2\2NET - Microsoft .NET Foundations and Enterprise Applications\SharpmonGame\DllSharpmon.dll\bin\Debug\DllSharpmon.dll.pdb
+C:\Users\jerem\Desktop\ASC2\2NET - Microsoft .NET Foundations and Enterprise Applications\SharpmonGame\DllSharpmon.dll\obj\Debug\DllSharpmon.csproj.CoreCompileInputs.cache
+C:\Users\jerem\Desktop\ASC2\2NET - Microsoft .NET Foundations and Enterprise Applications\SharpmonGame\DllSharpmon.dll\obj\Debug\DllSharpmon.dll.dll
+C:\Users\jerem\Desktop\ASC2\2NET - Microsoft .NET Foundations and Enterprise Applications\SharpmonGame\DllSharpmon.dll\obj\Debug\DllSharpmon.dll.pdb
+C:\Users\jerem\Desktop\ASC2\2NET - Microsoft .NET Foundations and Enterprise Applications\SharpmonGame\DllSharpmon.dll\obj\Debug\DllSharpmon.csprojResolveAssemblyReference.cache

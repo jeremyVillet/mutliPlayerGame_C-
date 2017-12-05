@@ -1,0 +1,9 @@
+C:\Users\jerem\Desktop\ASC2\2NET - Microsoft .NET Foundations and Enterprise Applications\SharpmonGame\ServerUpdate\bin\Debug\ServerUpdate.exe.config
+C:\Users\jerem\Desktop\ASC2\2NET - Microsoft .NET Foundations and Enterprise Applications\SharpmonGame\ServerUpdate\bin\Debug\ServerUpdate.exe
+C:\Users\jerem\Desktop\ASC2\2NET - Microsoft .NET Foundations and Enterprise Applications\SharpmonGame\ServerUpdate\bin\Debug\ServerUpdate.pdb
+C:\Users\jerem\Desktop\ASC2\2NET - Microsoft .NET Foundations and Enterprise Applications\SharpmonGame\ServerUpdate\obj\Debug\ServerUpdate.csproj.CoreCompileInputs.cache
+C:\Users\jerem\Desktop\ASC2\2NET - Microsoft .NET Foundations and Enterprise Applications\SharpmonGame\ServerUpdate\obj\Debug\ServerUpdate.exe
+C:\Users\jerem\Desktop\ASC2\2NET - Microsoft .NET Foundations and Enterprise Applications\SharpmonGame\ServerUpdate\obj\Debug\ServerUpdate.pdb
+C:\Users\jerem\Desktop\ASC2\2NET - Microsoft .NET Foundations and Enterprise Applications\SharpmonGame\ServerUpdate\bin\Debug\DllSharpmon.dll.dll
+C:\Users\jerem\Desktop\ASC2\2NET - Microsoft .NET Foundations and Enterprise Applications\SharpmonGame\ServerUpdate\bin\Debug\DllSharpmon.dll.pdb
+C:\Users\jerem\Desktop\ASC2\2NET - Microsoft .NET Foundations and Enterprise Applications\SharpmonGame\ServerUpdate\obj\Debug\ServerUpdate.csprojResolveAssemblyReference.cache
